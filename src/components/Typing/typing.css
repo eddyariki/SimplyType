@@ -1,0 +1,67 @@
+
+
+.correct{
+	color: var(--bright-font-correct);
+}
+.incorrect{
+	color: red
+}
+.default{
+	color:var(--bright-font-default)
+}
+.active{
+	background: transparent;
+	color: var(--bright-font-active);
+	text-decoration: underline;
+	-webkit-animation: blinkingHighlight 0.7s linear infinite;
+	animation: blinkingHighlight 0.7s infinite linear ;
+}	
+
+@keyframes blinkingHighlight{
+	0% {
+		text-decoration-color: var(--bright-font-active);
+	}
+	100%{
+		text-decoration-color: transparent;
+	}
+}
+
+
+#typeBox{
+	font-size: 3rem;
+	font-family: 'Noto Sans', sans-serif;
+	line-height: 3.8rem;
+}
+
+
+.typingBox{
+	width:75vw;
+	height:60vh;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	position: relative;
+	background-color: var(--bright-primary);
+/*	border: grey 2px;
+	border-style: solid;*/
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+.textField{
+	text-decoration: none;
+	border: none;
+	color: transparent;
+	height: 100%;
+	width: 100%;
+	position:absolute;
+	margin-left: -7vw;
+	margin-right: -7vw;
+	background-color: transparent;
+}
+.textField:focus{
+	color: transparent;
+	outline: none;
+}
+
+
+
+
