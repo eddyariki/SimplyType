@@ -259,7 +259,7 @@ class Home extends React.Component{
 
 
 				<div className="header" style={this.colorMode("backgroundColor", this.colorScheme.dark_primary, this.colorScheme.bright_primary)}>
-				Typing for Minimalists
+				Simply Type
 
 				</div>
 				
