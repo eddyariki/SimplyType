@@ -8,6 +8,7 @@
 		"footer footer footer";
 	grid-template-rows: 7vh 75vh 27vh;
 	background-color: var(--bright-primary);
+	transition: 1s;
 }
 
 
@@ -15,6 +16,7 @@
 	grid-area: side;
 	margin-right: 2vw;
 	border-left: solid var(--bright-ui) 2px;
+	transition: 1s;
 }
 
 #gameModeButton{
@@ -115,6 +117,7 @@
 	align-content: center;
 	height: 100%;
 	background-color: var(--bright-primary);
+	transition: 1s;
 }
 .results{
 	grid-area: side;
@@ -137,7 +140,7 @@
 	color: var(--bright-font-active);
 	font-size: 1.8rem;
 	letter-spacing: 0.1rem;
-
+	transition: 1s;
 }
 
 .switch{

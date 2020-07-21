@@ -41,6 +41,7 @@
 	padding-right: 2vw;
 	position: relative;
 	background-color: var(--bright-primary);
+	transition: 1s;
 /*	border: grey 2px;
 	border-style: solid;*/
 	display: grid;
@@ -56,6 +57,7 @@
 	margin-left: -7vw;
 	margin-right: -7vw;
 	background-color: transparent;
+	transition: 1s;
 }
 .textField:focus{
 	color: transparent;
